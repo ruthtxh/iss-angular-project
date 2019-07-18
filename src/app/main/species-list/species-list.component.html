@@ -1,0 +1,3 @@
+<table *ngFor="let species of Species; let i = index">
+  <tr><button mat-stroked-button routerLink="/species-details/{{i}}">{{species.name}}</button></tr>
+</table>

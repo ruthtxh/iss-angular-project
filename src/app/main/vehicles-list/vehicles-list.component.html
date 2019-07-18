@@ -1,0 +1,3 @@
+<table *ngFor="let vehicle of Vehicle; let i = index">
+  <tr><button mat-stroked-button routerLink="/vehicle-details/{{i}}">{{vehicle.name}}</button></tr>
+</table>

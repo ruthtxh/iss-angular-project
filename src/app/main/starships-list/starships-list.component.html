@@ -1,0 +1,3 @@
+<table *ngFor="let starship of Starship; let i = index">
+  <tr><button mat-stroked-button routerLink="/starship-details/{{i}}">{{starship.name}}</button></tr>
+</table>

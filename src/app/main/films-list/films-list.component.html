@@ -1,0 +1,3 @@
+<table *ngFor="let film of Film; let i = index">
+  <tr><button mat-stroked-button routerLink="/film-details/{{i}}">{{film.title}}</button></tr>
+</table>

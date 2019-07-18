@@ -1,0 +1,3 @@
+<table *ngFor="let planet of Planet; let i = index">
+  <tr><button mat-stroked-button routerLink="/planet-details/{{i}}">{{planet.name}}</button></tr>
+</table>

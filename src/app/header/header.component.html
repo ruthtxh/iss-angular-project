@@ -1,0 +1,4 @@
+<div *ngIf="titleService.getTitle() != 'Main'">
+  <button mat-stroked-button (click)="goBack()">Back</button>
+</div>
+<h3>{{titleService.getTitle()}}</h3>

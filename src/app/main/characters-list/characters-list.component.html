@@ -1,0 +1,3 @@
+<table *ngFor="let character of Character; let i = index">
+  <tr><button mat-stroked-button routerLink="/character-details/{{i}}">{{character.name}}</button></tr>
+</table>
