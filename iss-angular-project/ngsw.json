@@ -1,0 +1,78 @@
+{
+  "configVersion": 1,
+  "timestamp": 1564071975290,
+  "index": "https://ruthtxh.github.io/iss-angular-project/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://ruthtxh.github.io/iss-angular-project/favicon.ico",
+        "https://ruthtxh.github.io/iss-angular-project/index.html",
+        "https://ruthtxh.github.io/iss-angular-project/main-es2015.5bf8739df5b2d697d678.js",
+        "https://ruthtxh.github.io/iss-angular-project/main-es5.09e9341a481e4511f653.js",
+        "https://ruthtxh.github.io/iss-angular-project/polyfills-es2015.5728f680576ca47e99fe.js",
+        "https://ruthtxh.github.io/iss-angular-project/polyfills-es5.4e06eb653a3c8a2d581f.js",
+        "https://ruthtxh.github.io/iss-angular-project/runtime-es2015.858f8dd898b75fe86926.js",
+        "https://ruthtxh.github.io/iss-angular-project/runtime-es5.741402d1d47331ce975c.js",
+        "https://ruthtxh.github.io/iss-angular-project/styles.f9b1a575ed375ac441c8.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-128x128.png",
+        "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-144x144.png",
+        "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-152x152.png",
+        "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-192x192.png",
+        "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-384x384.png",
+        "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-512x512.png",
+        "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-72x72.png",
+        "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://ruthtxh.github.io/iss-angular-project/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://ruthtxh.github.io/iss-angular-project/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://ruthtxh.github.io/iss-angular-project/index.html": "d064d18f8070748a4571dcb00887461606118ae1",
+    "https://ruthtxh.github.io/iss-angular-project/main-es2015.5bf8739df5b2d697d678.js": "9b4f520f2c3255121d6cea3a3fc0d911fd99494b",
+    "https://ruthtxh.github.io/iss-angular-project/main-es5.09e9341a481e4511f653.js": "9ea413f118e90ff7a9eeeb1f2718821b635d9a5a",
+    "https://ruthtxh.github.io/iss-angular-project/polyfills-es2015.5728f680576ca47e99fe.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
+    "https://ruthtxh.github.io/iss-angular-project/polyfills-es5.4e06eb653a3c8a2d581f.js": "f84a71ef6c7a788b5fe701bf2405313d7766a66d",
+    "https://ruthtxh.github.io/iss-angular-project/runtime-es2015.858f8dd898b75fe86926.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://ruthtxh.github.io/iss-angular-project/runtime-es5.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://ruthtxh.github.io/iss-angular-project/styles.f9b1a575ed375ac441c8.css": "d6897d82eb18cf4a05219b1a11a8f38388aaa078"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
