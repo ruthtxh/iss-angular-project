@@ -23,6 +23,8 @@ import { VehicleDetailsComponent } from './main/vehicles-list/vehicle-details/ve
 import { HeaderComponent } from './header/header.component';
 import { FormsModule } from '@angular/forms';
 import { CommentsComponent } from './comments/comments.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,7 +50,8 @@ import { CommentsComponent } from './comments/comments.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatButtonModule
+    MatButtonModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [Title, CommentsService],
   bootstrap: [AppComponent]

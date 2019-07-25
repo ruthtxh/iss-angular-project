@@ -8,7 +8,7 @@ import { Location } from '@angular/common';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  constructor(private titleService: Title, private location: Location) { }
+  constructor(public titleService: Title, public location: Location) { }
   ngOnInit() {
     this.titleService.setTitle("");
   }
